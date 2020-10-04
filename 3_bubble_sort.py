@@ -1,3 +1,4 @@
+# n is used to get input from user 
 n=input('Enter Length of Array:')
 l=[]
 temp=0
