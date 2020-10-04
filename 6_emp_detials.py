@@ -1,11 +1,12 @@
+# Employee basic details
 x=0
 ll=[]
 while x==0:
     print("1.ADD\n2.VIEW\n3.EXIT")
-    n=int(input("Enter Choice:"))
+    n=int(input("Enter Choice:")) # input of user choice
     e=[]
     if n==1:
-        f=input("First Name:")
+        f=input("First Name:") 
         e.append(f)
         l=input("Last Name:")
         e.append(l)
@@ -18,7 +19,7 @@ while x==0:
         eid=input("Enter Employee ID:")
         for j in range(0,len(ll)):
                 if(ll[j][3] == eid):
-                    print("First Name:"+ll[j][0] +"\nLast Name:"+ll[j][1]+ "\nDOB:"+ll[j][2]+ "\nid:"+ll[j][3])
+                    print("First Name:"+ll[j][0] +"\nLast Name:"+ll[j][1]+ "\nDOB:"+ll[j][2]+ "\nid:"+ll[j][3]) # output of employee details
 
     elif n==3:
         x=1    
