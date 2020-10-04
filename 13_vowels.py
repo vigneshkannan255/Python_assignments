@@ -6,4 +6,5 @@ for line in f.read():
         total+=1
 f=open('a.txt','a')
 f.write('Number of vowels in the file :'+str(total))
+#above line is to print Number of vowels in the file
 f.close()
