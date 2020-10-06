@@ -1,6 +1,6 @@
 #regular expression packages are imported
 import re
-a='Poorani1ko23'
+a='abcde1ko23'
 #finding all alpha char in a & storing in match
 match=(re.findall("\D+",a))
 #finding all digits in a & storing in match1
